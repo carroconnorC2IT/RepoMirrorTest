@@ -26,7 +26,6 @@ namespace TelerikControls.Views
 
         public async Task NavigateFromMenu(int id)
         {
-            var test = (int)MenuItemType.ListViewTemplateCell;
             if (!MenuPages.ContainsKey(id))
             {
                 switch (id)
@@ -39,6 +38,9 @@ namespace TelerikControls.Views
                         break;
                     case (int)MenuItemType.ListViewTemplateCell:
                         MenuPages.Add(id, new NavigationPage(new ListViewTemplateCell()));
+                        break;
+                    case (int)MenuItemType.Accordion:
+                        MenuPages.Add(id, new NavigationPage(new AccordionPage()));
                         break;
                 }
             }

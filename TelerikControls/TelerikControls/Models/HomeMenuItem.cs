@@ -8,7 +8,8 @@ namespace TelerikControls.Models
     {
         Browse,
         About,
-        ListViewTemplateCell
+        ListViewTemplateCell,
+        Accordion
     }
     public class HomeMenuItem
     {
