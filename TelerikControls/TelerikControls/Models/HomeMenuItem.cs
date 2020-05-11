@@ -7,7 +7,8 @@ namespace TelerikControls.Models
     public enum MenuItemType
     {
         Browse,
-        About
+        About,
+        ListViewTemplateCell
     }
     public class HomeMenuItem
     {
