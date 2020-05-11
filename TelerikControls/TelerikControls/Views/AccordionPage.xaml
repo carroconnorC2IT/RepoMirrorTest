@@ -1,31 +1,64 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.AccordionPage" xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.AccordionPage" xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives" xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls" xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls" xmlns:local="clr-namespace:TelerikControls">
     <ContentPage.Content>
     <telerikPrimitives:RadAccordion x:Name="accordion" >
 		<telerikPrimitives:AccordionItem IsExpanded="True">
             <telerikPrimitives:AccordionItem.Header>
                 <telerikPrimitives:AccordionItemHeader>
-                    <Label Text="Item Header" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Category 1" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center" FontSize="Large"></Label>
+                                    <Image Source="https://images.homedepot-static.com/productImages/8014409e-584a-4cf4-b46c-fb50652774d9/svn/master-flow-elbows-b90e4-64_400_compressed.jpg" HeightRequest="50" HorizontalOptions="End"/>
+                                </StackLayout>
                 </telerikPrimitives:AccordionItemHeader>
             </telerikPrimitives:AccordionItem.Header>
             <telerikPrimitives:AccordionItem.Content>
-                <Label Margin="15" Text="Item Content" />
+                <telerikDataControls:RadListView x:Name="listView" ItemsSource="{Binding Source}">
+                     <telerikDataControls:RadListView.BindingContext>
+                         <local:ViewModel />
+                         </telerikDataControls:RadListView.BindingContext>
+                         <telerikDataControls:RadListView.ItemTemplate>
+                         <DataTemplate>
+                         <telerikListView:ListViewTemplateCell>
+                         <telerikListView:ListViewTemplateCell.View>
+                             <Grid>
+                             <Label Margin="10" Text="{Binding Name}" />
+                             </Grid>
+                         </telerikListView:ListViewTemplateCell.View>
+                         </telerikListView:ListViewTemplateCell>
+                         </DataTemplate>
+                         </telerikDataControls:RadListView.ItemTemplate>
+                     </telerikDataControls:RadListView>
             </telerikPrimitives:AccordionItem.Content>
         </telerikPrimitives:AccordionItem>
         <telerikPrimitives:AccordionItem IsExpanded="True">
             <telerikPrimitives:AccordionItem.Header>
                 <telerikPrimitives:AccordionItemHeader>
-                    <Label Text="Item Header" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Category 2" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center" FontSize="Large"></Label>
+                                    <Image Source="https://images.homedepot-static.com/productImages/8014409e-584a-4cf4-b46c-fb50652774d9/svn/master-flow-elbows-b90e4-64_400_compressed.jpg" HeightRequest="50" HorizontalOptions="End"/>
+                                </StackLayout>
                 </telerikPrimitives:AccordionItemHeader>
             </telerikPrimitives:AccordionItem.Header>
             <telerikPrimitives:AccordionItem.Content>
-                <Label Margin="15" Text="Item Content" />
+                <StackLayout Orientation="Horizontal" FlowDirection="LeftToRight" IsVisible="{Binding IsVisible}">
+                                                    <Image Source="https://images.homedepot-static.com/productImages/8014409e-584a-4cf4-b46c-fb50652774d9/svn/master-flow-elbows-b90e4-64_400_compressed.jpg" HeightRequest="50" />
+                                                        <StackLayout>
+                                                            <Label Text="Part Name"></Label>
+                                                            <Label Text="Part Description"></Label>
+                                                        </StackLayout>
+                                                        <Button x:Name="minusButton" Text="minus-circle" HeightRequest="40" FontFamily="{StaticResource FontAwesomeSolid}" FontSize="Large" TextColor="Black" BackgroundColor="Transparent" WidthRequest="40" HorizontalOptions="EndAndExpand"></Button>
+                                                        <Label x:Name="partsQuantity" Text="0" VerticalTextAlignment="Center" BackgroundColor="LightGray" FontSize="Large" WidthRequest="30" HorizontalTextAlignment="Center"></Label>
+                                                        <Button x:Name="plusButton" Text="plus-circle" HeightRequest="40" FontFamily="{StaticResource FontAwesomeSolid}" FontSize="Large" TextColor="Black" BackgroundColor="Transparent" WidthRequest="40" ></Button>
+                                                    </StackLayout>
             </telerikPrimitives:AccordionItem.Content>
         </telerikPrimitives:AccordionItem>
         <telerikPrimitives:AccordionItem IsExpanded="True">
             <telerikPrimitives:AccordionItem.Header>
                 <telerikPrimitives:AccordionItemHeader>
-                    <Label Text="Item Header" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Label Text="Category 3" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center" FontSize="Large"></Label>
+                                    <Image Source="https://images.homedepot-static.com/productImages/8014409e-584a-4cf4-b46c-fb50652774d9/svn/master-flow-elbows-b90e4-64_400_compressed.jpg" HeightRequest="50" HorizontalOptions="End"/>
+                                </StackLayout>
                 </telerikPrimitives:AccordionItemHeader>
             </telerikPrimitives:AccordionItem.Header>
             <telerikPrimitives:AccordionItem.Content>
