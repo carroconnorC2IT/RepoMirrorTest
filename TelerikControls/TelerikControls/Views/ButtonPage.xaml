@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.ButtonPage" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input">
+    <ContentPage.Content>
+
+        <StackLayout HeightRequest="100" WidthRequest="100">
+            <telerikInput:RadButton WidthRequest="120" 
+                HeightRequest="120"                                
+                Text="Circle Button" 
+                FontSize="Micro" 
+                TextColor="White" 
+                BackgroundColor="DarkBlue" 
+                BorderRadius="60"  />
+        </StackLayout>
+
+    
+
+    </ContentPage.Content>
+</ContentPage>

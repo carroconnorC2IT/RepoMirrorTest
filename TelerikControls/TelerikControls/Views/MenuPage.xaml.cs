@@ -24,7 +24,10 @@ namespace TelerikControls.Views
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
                 new HomeMenuItem {Id = MenuItemType.ListViewTemplateCell, Title = "ListViewTemplateCell"},
                 new HomeMenuItem {Id = MenuItemType.Accordion, Title = "Accordion"}, 
-                new HomeMenuItem {Id = MenuItemType.Entry, Title = "Numeric Input and Checkbox"}
+                new HomeMenuItem {Id = MenuItemType.Entry, Title = "Numeric Input and Checkbox"},
+                new HomeMenuItem {Id = MenuItemType.SideDrawer, Title = "Side Drawer"},
+                new HomeMenuItem {Id = MenuItemType.PopUp, Title = "Pop Up"},
+                new HomeMenuItem {Id = MenuItemType.Button, Title = "Button"}
             };
 
             ListViewMenu.ItemsSource = menuItems;

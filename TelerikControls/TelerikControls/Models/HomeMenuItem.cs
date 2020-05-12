@@ -10,7 +10,10 @@ namespace TelerikControls.Models
         About,
         ListViewTemplateCell,
         Accordion,
-        Entry
+        Entry,
+        SideDrawer,
+        PopUp,
+        Button
     }
     public class HomeMenuItem
     {

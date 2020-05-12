@@ -45,6 +45,15 @@ namespace TelerikControls.Views
                     case (int)MenuItemType.Entry:
                         MenuPages.Add(id, new NavigationPage(new EntryPage()));
                         break;
+                    case (int)MenuItemType.SideDrawer:
+                        MenuPages.Add(id, new NavigationPage(new SideDrawer()));
+                        break;
+                    case (int)MenuItemType.PopUp:
+                        MenuPages.Add(id, new NavigationPage(new PopupPage()));
+                        break;
+                    case (int)MenuItemType.Button:
+                        MenuPages.Add(id, new NavigationPage(new ButtonPage()));
+                        break;
                 }
             }
 
