@@ -42,6 +42,9 @@ namespace TelerikControls.Views
                     case (int)MenuItemType.Accordion:
                         MenuPages.Add(id, new NavigationPage(new AccordionPage()));
                         break;
+                    case (int)MenuItemType.Entry:
+                        MenuPages.Add(id, new NavigationPage(new EntryPage()));
+                        break;
                 }
             }
 

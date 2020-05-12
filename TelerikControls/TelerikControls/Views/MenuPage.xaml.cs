@@ -23,7 +23,8 @@ namespace TelerikControls.Views
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
                 new HomeMenuItem {Id = MenuItemType.ListViewTemplateCell, Title = "ListViewTemplateCell"},
-                new HomeMenuItem {Id = MenuItemType.Accordion, Title = "Accordion"}
+                new HomeMenuItem {Id = MenuItemType.Accordion, Title = "Accordion"}, 
+                new HomeMenuItem {Id = MenuItemType.Entry, Title = "Numeric Input and Checkbox"}
             };
 
             ListViewMenu.ItemsSource = menuItems;

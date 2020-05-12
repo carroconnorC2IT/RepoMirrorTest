@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" x:Class="TelerikControls.Views.EntryPage" xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives">
+    <ContentPage.Content>
+        <StackLayout HeightRequest="50">
+            <Label Text="Numeric Input"></Label>
+            <telerikInput:RadNumericInput x:Name="numericInput" HeightRequest="30" />
+            <Label Text="Checkbox"></Label>
+            <telerikPrimitives:RadCheckBox x:Name="checkbox"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
