@@ -54,6 +54,12 @@ namespace TelerikControls.Views
                     case (int)MenuItemType.Button:
                         MenuPages.Add(id, new NavigationPage(new ButtonPage()));
                         break;
+                    case (int)MenuItemType.DockLayout:
+                        MenuPages.Add(id, new NavigationPage(new DockLayout()));
+                        break;
+                    case (int)MenuItemType.SegmentedControl:
+                        MenuPages.Add(id, new NavigationPage(new SegmentedControl()));
+                        break;
                 }
             }
 

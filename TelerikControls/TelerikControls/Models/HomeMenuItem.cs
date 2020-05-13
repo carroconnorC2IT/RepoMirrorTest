@@ -13,7 +13,9 @@ namespace TelerikControls.Models
         Entry,
         SideDrawer,
         PopUp,
-        Button
+        Button,
+        DockLayout,
+        SegmentedControl
     }
     public class HomeMenuItem
     {
