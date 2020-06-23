@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.ButtonPage" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.ButtonPage" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input">
     <ContentPage.Content>
 
         <StackLayout HeightRequest="100" WidthRequest="100">
@@ -10,6 +10,11 @@
                 TextColor="White" 
                 BackgroundColor="DarkBlue" 
                 BorderRadius="60"  />
+            <Slider Minimum="0" Maximum="12" />
+            <Stepper x:Name="stepper" Minimum="0" Maximum="12" Increment=".5"/>
+            <TimePicker/>
+            <telerikInput:RadTimeSpanPicker MaximumTime="20" DayStep="0" />
+
         </StackLayout>
 
     

@@ -2629,6 +2629,10 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animation.EnterFromRight = global::TelerikControls.Droid.Resource.Animation.EnterFromRight;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animation.ExitToLeft = global::TelerikControls.Droid.Resource.Animation.ExitToLeft;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animation.ExitToRight = global::TelerikControls.Droid.Resource.Animation.ExitToRight;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animation.text_slide_in_from_bottom = global::TelerikControls.Droid.Resource.Animation.text_slide_in_from_bottom;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animation.text_slide_in_from_top = global::TelerikControls.Droid.Resource.Animation.text_slide_in_from_top;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animation.text_slide_out_to_bottom = global::TelerikControls.Droid.Resource.Animation.text_slide_out_to_bottom;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animation.text_slide_out_to_top = global::TelerikControls.Droid.Resource.Animation.text_slide_out_to_top;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animator.design_appbar_state_list_animator = global::TelerikControls.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animator.design_fab_hide_motion_spec = global::TelerikControls.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Animator.design_fab_show_motion_spec = global::TelerikControls.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -3638,6 +3642,7 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Drawable.gingerbread_background = global::TelerikControls.Droid.Resource.Drawable.gingerbread_background;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Drawable.hamburger = global::TelerikControls.Droid.Resource.Drawable.hamburger;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Drawable.hmb = global::TelerikControls.Droid.Resource.Drawable.hmb;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Drawable.ic_add_white_24dp = global::TelerikControls.Droid.Resource.Drawable.ic_add_white_24dp;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Drawable.ic_clear = global::TelerikControls.Droid.Resource.Drawable.ic_clear;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Drawable.ic_collapse = global::TelerikControls.Droid.Resource.Drawable.ic_collapse;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Drawable.ic_collapse_dataform_group = global::TelerikControls.Droid.Resource.Drawable.ic_collapse_dataform_group;
@@ -3923,6 +3928,7 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Id.textSpacerNoTitle = global::TelerikControls.Droid.Resource.Id.textSpacerNoTitle;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Id.textStart = global::TelerikControls.Droid.Resource.Id.textStart;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Id.text_input_password_toggle = global::TelerikControls.Droid.Resource.Id.text_input_password_toggle;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Id.text_switcher = global::TelerikControls.Droid.Resource.Id.text_switcher;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Id.textinput_counter = global::TelerikControls.Droid.Resource.Id.textinput_counter;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Id.textinput_error = global::TelerikControls.Droid.Resource.Id.textinput_error;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Id.textinput_helper_text = global::TelerikControls.Droid.Resource.Id.textinput_helper_text;
@@ -4003,6 +4009,8 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_agenda_appointment_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_appointment_view;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_agenda_day_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_day_view;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_agenda_month_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_month_view;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_agenda_sticky_header_separator = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_sticky_header_separator;
+			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_agenda_sticky_header_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_sticky_header_view;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_agenda_week_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_week_view;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_all_day_event_view = global::TelerikControls.Droid.Resource.Layout.calendar_all_day_event_view;
 			global::Telerik.XamarinForms.ConversationalUIRenderer.Android.Resource.Layout.calendar_day_event_view = global::TelerikControls.Droid.Resource.Layout.calendar_day_event_view;
@@ -10778,6 +10786,10 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.EnterFromRight = global::TelerikControls.Droid.Resource.Animation.EnterFromRight;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.ExitToLeft = global::TelerikControls.Droid.Resource.Animation.ExitToLeft;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.ExitToRight = global::TelerikControls.Droid.Resource.Animation.ExitToRight;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.text_slide_in_from_bottom = global::TelerikControls.Droid.Resource.Animation.text_slide_in_from_bottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.text_slide_in_from_top = global::TelerikControls.Droid.Resource.Animation.text_slide_in_from_top;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.text_slide_out_to_bottom = global::TelerikControls.Droid.Resource.Animation.text_slide_out_to_bottom;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animation.text_slide_out_to_top = global::TelerikControls.Droid.Resource.Animation.text_slide_out_to_top;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animator.design_appbar_state_list_animator = global::TelerikControls.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animator.design_fab_hide_motion_spec = global::TelerikControls.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Animator.design_fab_show_motion_spec = global::TelerikControls.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -11787,6 +11799,7 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.gingerbread_background = global::TelerikControls.Droid.Resource.Drawable.gingerbread_background;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.hamburger = global::TelerikControls.Droid.Resource.Drawable.hamburger;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.hmb = global::TelerikControls.Droid.Resource.Drawable.hmb;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.ic_add_white_24dp = global::TelerikControls.Droid.Resource.Drawable.ic_add_white_24dp;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.ic_clear = global::TelerikControls.Droid.Resource.Drawable.ic_clear;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.ic_collapse = global::TelerikControls.Droid.Resource.Drawable.ic_collapse;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Drawable.ic_collapse_dataform_group = global::TelerikControls.Droid.Resource.Drawable.ic_collapse_dataform_group;
@@ -12069,6 +12082,7 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.textSpacerNoTitle = global::TelerikControls.Droid.Resource.Id.textSpacerNoTitle;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.textStart = global::TelerikControls.Droid.Resource.Id.textStart;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.text_input_password_toggle = global::TelerikControls.Droid.Resource.Id.text_input_password_toggle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.text_switcher = global::TelerikControls.Droid.Resource.Id.text_switcher;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.textinput_counter = global::TelerikControls.Droid.Resource.Id.textinput_counter;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.textinput_error = global::TelerikControls.Droid.Resource.Id.textinput_error;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.textinput_helper_text = global::TelerikControls.Droid.Resource.Id.textinput_helper_text;
@@ -12149,6 +12163,8 @@ namespace TelerikControls.Droid
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_agenda_appointment_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_appointment_view;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_agenda_day_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_day_view;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_agenda_month_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_month_view;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_agenda_sticky_header_separator = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_sticky_header_separator;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_agenda_sticky_header_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_sticky_header_view;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_agenda_week_view = global::TelerikControls.Droid.Resource.Layout.calendar_agenda_week_view;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_all_day_event_view = global::TelerikControls.Droid.Resource.Layout.calendar_all_day_event_view;
 			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.calendar_day_event_view = global::TelerikControls.Droid.Resource.Layout.calendar_day_event_view;
@@ -19031,6 +19047,18 @@ namespace TelerikControls.Droid
 			// aapt resource value: 0x7F010015
 			public const int ExitToRight = 2130771989;
 			
+			// aapt resource value: 0x7F010016
+			public const int text_slide_in_from_bottom = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int text_slide_in_from_top = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int text_slide_out_to_bottom = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int text_slide_out_to_top = 2130771993;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -22341,115 +22369,118 @@ namespace TelerikControls.Droid
 			public const int hmb = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_clear = 2131165296;
+			public const int ic_add_white_24dp = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int ic_collapse = 2131165297;
+			public const int ic_clear = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int ic_collapse_dataform_group = 2131165298;
+			public const int ic_collapse = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int ic_expand = 2131165299;
+			public const int ic_collapse_dataform_group = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int ic_expand_dataform_group = 2131165300;
+			public const int ic_expand = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int ic_mtrl_chip_checked_black = 2131165301;
+			public const int ic_expand_dataform_group = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int ic_mtrl_chip_checked_circle = 2131165302;
+			public const int ic_mtrl_chip_checked_black = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int ic_mtrl_chip_close_circle = 2131165303;
+			public const int ic_mtrl_chip_checked_circle = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int ic_token_remove = 2131165304;
+			public const int ic_mtrl_chip_close_circle = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int ic_token_remove_pressed = 2131165305;
+			public const int ic_token_remove = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_snackbar_background = 2131165306;
+			public const int ic_token_remove_pressed = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_tabs_default_indicator = 2131165307;
+			public const int mtrl_snackbar_background = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int navigation_empty_icon = 2131165308;
+			public const int mtrl_tabs_default_indicator = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int notification_action_background = 2131165309;
+			public const int navigation_empty_icon = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int notification_bg = 2131165310;
+			public const int notification_action_background = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int notification_bg_low = 2131165311;
+			public const int notification_bg = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_bg_low_normal = 2131165312;
+			public const int notification_bg_low = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_bg_low_pressed = 2131165313;
+			public const int notification_bg_low_normal = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_bg_normal = 2131165314;
+			public const int notification_bg_low_pressed = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg_normal_pressed = 2131165315;
+			public const int notification_bg_normal = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_icon_background = 2131165316;
+			public const int notification_bg_normal_pressed = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_template_icon_bg = 2131165317;
+			public const int notification_icon_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_template_icon_low_bg = 2131165318;
+			public const int notification_template_icon_bg = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_tile_bg = 2131165319;
+			public const int notification_template_icon_low_bg = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notify_panel_notification_icon_bg = 2131165320;
+			public const int notification_tile_bg = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int pressable_item_background = 2131165321;
+			public const int notify_panel_notification_icon_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int selectable_item_background = 2131165322;
+			public const int pressable_item_background = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int shade_bottom = 2131165323;
+			public const int selectable_item_background = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int shade_corner = 2131165324;
+			public const int shade_bottom = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int shade_right = 2131165325;
+			public const int shade_corner = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tab_view_popup_background = 2131165326;
+			public const int shade_right = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int TelerikChatAuthor = 2131165327;
+			public const int tab_view_popup_background = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int TelerikSendMessage = 2131165328;
+			public const int TelerikChatAuthor = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int TelerikTypingAuthors = 2131165329;
+			public const int TelerikSendMessage = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int tooltip_frame_dark = 2131165330;
+			public const int TelerikTypingAuthors = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int tooltip_frame_light = 2131165331;
+			public const int tooltip_frame_dark = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int xamarin_logo = 2131165332;
+			public const int tooltip_frame_light = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int xamarin_logo = 2131165333;
 			
 			static Drawable()
 			{
@@ -22560,11 +22591,11 @@ namespace TelerikControls.Droid
 			// aapt resource value: 0x7F080044
 			public const int blocking = 2131230788;
 			
-			// aapt resource value: 0x7F080003
-			public const int Bottom = 2131230723;
-			
 			// aapt resource value: 0x7F080045
 			public const int bottom = 2131230789;
+			
+			// aapt resource value: 0x7F080003
+			public const int Bottom = 2131230723;
 			
 			// aapt resource value: 0x7F080046
 			public const int bottomtab_navarea = 2131230790;
@@ -22926,11 +22957,11 @@ namespace TelerikControls.Droid
 			// aapt resource value: 0x7F0800B2
 			public const int largeLabel = 2131230898;
 			
-			// aapt resource value: 0x7F0800B3
-			public const int left = 2131230899;
-			
 			// aapt resource value: 0x7F08000F
 			public const int Left = 2131230735;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int left = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
 			public const int legendItemIconView = 2131230900;
@@ -23025,11 +23056,11 @@ namespace TelerikControls.Droid
 			// aapt resource value: 0x7F0800CC
 			public const int never = 2131230924;
 			
-			// aapt resource value: 0x7F080016
-			public const int None = 2131230742;
-			
 			// aapt resource value: 0x7F0800CD
 			public const int none = 2131230925;
+			
+			// aapt resource value: 0x7F080016
+			public const int None = 2131230742;
 			
 			// aapt resource value: 0x7F0800CE
 			public const int normal = 2131230926;
@@ -23304,14 +23335,14 @@ namespace TelerikControls.Droid
 			// aapt resource value: 0x7F08011C
 			public const int text2 = 2131231004;
 			
-			// aapt resource value: 0x7F080121
-			public const int textinput_counter = 2131231009;
-			
 			// aapt resource value: 0x7F080122
-			public const int textinput_error = 2131231010;
+			public const int textinput_counter = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int textinput_helper_text = 2131231011;
+			public const int textinput_error = 2131231011;
+			
+			// aapt resource value: 0x7F080124
+			public const int textinput_helper_text = 2131231012;
 			
 			// aapt resource value: 0x7F08011D
 			public const int textSpacerNoButtons = 2131231005;
@@ -23325,80 +23356,83 @@ namespace TelerikControls.Droid
 			// aapt resource value: 0x7F080120
 			public const int text_input_password_toggle = 2131231008;
 			
-			// aapt resource value: 0x7F080124
-			public const int time = 2131231012;
+			// aapt resource value: 0x7F080121
+			public const int text_switcher = 2131231009;
+			
+			// aapt resource value: 0x7F080125
+			public const int time = 2131231013;
 			
 			// aapt resource value: 0x7F080023
 			public const int TimeOfDay = 2131230755;
 			
-			// aapt resource value: 0x7F080125
-			public const int title = 2131231013;
-			
 			// aapt resource value: 0x7F080126
-			public const int titleDividerNoCustom = 2131231014;
+			public const int title = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int title_template = 2131231015;
+			public const int titleDividerNoCustom = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int title_textview = 2131231016;
+			public const int title_template = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int toolbar = 2131231017;
+			public const int title_textview = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int tooltip_content_container = 2131231018;
+			public const int toolbar = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int tooltip_content_container = 2131231019;
 			
 			// aapt resource value: 0x7F080024
 			public const int Top = 2131230756;
 			
-			// aapt resource value: 0x7F08012B
-			public const int top = 2131231019;
-			
 			// aapt resource value: 0x7F08012C
-			public const int topPanel = 2131231020;
+			public const int top = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int touch_outside = 2131231021;
+			public const int topPanel = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int trackball_points_list = 2131231022;
+			public const int touch_outside = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int transition_current_scene = 2131231023;
+			public const int trackball_points_list = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int transition_layout_save = 2131231024;
+			public const int transition_current_scene = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int transition_position = 2131231025;
+			public const int transition_layout_save = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int transition_scene_layoutid_cache = 2131231026;
+			public const int transition_position = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int transition_transform = 2131231027;
+			public const int transition_scene_layoutid_cache = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int uniform = 2131231028;
+			public const int transition_transform = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int unlabeled = 2131231029;
+			public const int uniform = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int up = 2131231030;
+			public const int unlabeled = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int useLogo = 2131231031;
+			public const int up = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int vertical = 2131231032;
+			public const int useLogo = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int view_offset_helper = 2131231033;
+			public const int vertical = 2131231033;
 			
 			// aapt resource value: 0x7F08013A
-			public const int visible = 2131231034;
+			public const int view_offset_helper = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int visible = 2131231035;
 			
 			// aapt resource value: 0x7F080025
 			public const int Visible = 2131230757;
@@ -23406,20 +23440,20 @@ namespace TelerikControls.Droid
 			// aapt resource value: 0x7F080026
 			public const int Week = 2131230758;
 			
-			// aapt resource value: 0x7F08013B
-			public const int withText = 2131231035;
-			
 			// aapt resource value: 0x7F08013C
-			public const int wrap_content = 2131231036;
+			public const int withText = 2131231036;
 			
 			// aapt resource value: 0x7F08013D
-			public const int xText = 2131231037;
+			public const int wrap_content = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int xText = 2131231038;
 			
 			// aapt resource value: 0x7F080027
 			public const int Year = 2131230759;
 			
-			// aapt resource value: 0x7F08013E
-			public const int yText = 2131231038;
+			// aapt resource value: 0x7F08013F
+			public const int yText = 2131231039;
 			
 			static Id()
 			{
@@ -23623,313 +23657,319 @@ namespace TelerikControls.Droid
 			public const int calendar_agenda_month_view = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int calendar_agenda_week_view = 2131427363;
+			public const int calendar_agenda_sticky_header_separator = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int calendar_all_day_event_view = 2131427364;
+			public const int calendar_agenda_sticky_header_view = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int calendar_day_event_view = 2131427365;
+			public const int calendar_agenda_week_view = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int data_form_autocomplete_editor = 2131427366;
+			public const int calendar_all_day_event_view = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int data_form_checkbox_editor = 2131427367;
+			public const int calendar_day_event_view = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int data_form_date_editor = 2131427368;
+			public const int data_form_autocomplete_editor = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int data_form_decimal_editor = 2131427369;
+			public const int data_form_checkbox_editor = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int data_form_default_group_layout = 2131427370;
+			public const int data_form_date_editor = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int data_form_editor_header_layout_1 = 2131427371;
+			public const int data_form_decimal_editor = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int data_form_editor_header_layout_2 = 2131427372;
+			public const int data_form_default_group_layout = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int data_form_editor_layout_1 = 2131427373;
+			public const int data_form_editor_header_layout_1 = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int data_form_editor_layout_2 = 2131427374;
+			public const int data_form_editor_header_layout_2 = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int data_form_editor_validation_layout_1 = 2131427375;
+			public const int data_form_editor_layout_1 = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int data_form_expandable_group_layout = 2131427376;
+			public const int data_form_editor_layout_2 = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int data_form_group_layout = 2131427377;
+			public const int data_form_editor_validation_layout_1 = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int data_form_integer_editor = 2131427378;
+			public const int data_form_expandable_group_layout = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int data_form_linear_layout = 2131427379;
+			public const int data_form_group_layout = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int data_form_list_editor = 2131427380;
+			public const int data_form_integer_editor = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int data_form_list_editor_item = 2131427381;
+			public const int data_form_linear_layout = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int data_form_number_picker = 2131427382;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int data_form_radio_group_editor = 2131427384;
+			public const int data_form_list_editor = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int data_form_rad_autocomplete_editor = 2131427383;
+			public const int data_form_list_editor_item = 2131427383;
 			
-			// aapt resource value: 0x7F0B0039
-			public const int data_form_root_layout = 2131427385;
+			// aapt resource value: 0x7F0B0038
+			public const int data_form_number_picker = 2131427384;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int data_form_seek_bar_editor = 2131427386;
+			public const int data_form_radio_group_editor = 2131427386;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int data_form_rad_autocomplete_editor = 2131427385;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int data_form_segmented_editor = 2131427387;
+			public const int data_form_root_layout = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int data_form_spinner_editor = 2131427388;
+			public const int data_form_seek_bar_editor = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int data_form_spinner_item = 2131427389;
+			public const int data_form_segmented_editor = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int data_form_switch_editor = 2131427390;
+			public const int data_form_spinner_editor = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int data_form_text_editor = 2131427391;
+			public const int data_form_spinner_item = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int data_form_text_viewer = 2131427392;
+			public const int data_form_switch_editor = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int data_form_time_editor = 2131427393;
+			public const int data_form_text_editor = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int data_form_toggle_button_editor = 2131427394;
+			public const int data_form_text_viewer = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int default_tooltip_content = 2131427395;
+			public const int data_form_time_editor = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int default_tooltip_ohlc_content = 2131427396;
+			public const int data_form_toggle_button_editor = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int default_tooltip_scatter_bubble_content = 2131427397;
+			public const int default_tooltip_content = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int default_tooltip_scatter_content = 2131427398;
+			public const int default_tooltip_ohlc_content = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int default_trackball_content = 2131427399;
+			public const int default_tooltip_scatter_bubble_content = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int default_trackball_item_content = 2131427400;
+			public const int default_tooltip_scatter_content = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int design_bottom_navigation_item = 2131427401;
+			public const int default_trackball_content = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int design_bottom_sheet_dialog = 2131427402;
+			public const int default_trackball_item_content = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int design_layout_snackbar = 2131427403;
+			public const int design_bottom_navigation_item = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int design_layout_snackbar_include = 2131427404;
+			public const int design_bottom_sheet_dialog = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int design_layout_tab_icon = 2131427405;
+			public const int design_layout_snackbar = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int design_layout_tab_text = 2131427406;
+			public const int design_layout_snackbar_include = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int design_menu_item_action_area = 2131427407;
+			public const int design_layout_tab_icon = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int design_navigation_item = 2131427408;
+			public const int design_layout_tab_text = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int design_navigation_item_header = 2131427409;
+			public const int design_menu_item_action_area = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int design_navigation_item_separator = 2131427410;
+			public const int design_navigation_item = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int design_navigation_item_subheader = 2131427411;
+			public const int design_navigation_item_header = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int design_navigation_menu = 2131427412;
+			public const int design_navigation_item_separator = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int design_navigation_menu_item = 2131427413;
+			public const int design_navigation_item_subheader = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int design_text_input_password_icon = 2131427414;
+			public const int design_navigation_menu = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int drawer_blur_fade_layer = 2131427415;
+			public const int design_navigation_menu_item = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int FlyoutContent = 2131427416;
+			public const int design_text_input_password_icon = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int inline_event = 2131427417;
+			public const int drawer_blur_fade_layer = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int legend_item_view = 2131427418;
+			public const int FlyoutContent = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int linear_layout = 2131427419;
+			public const int inline_event = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_layout_snackbar = 2131427420;
+			public const int legend_item_view = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_layout_snackbar_include = 2131427421;
+			public const int linear_layout = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int navigation_drawer_content = 2131427422;
+			public const int mtrl_layout_snackbar = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int navigation_item_view = 2131427423;
+			public const int mtrl_layout_snackbar_include = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int notification_action = 2131427424;
+			public const int navigation_drawer_content = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_action_tombstone = 2131427425;
+			public const int navigation_item_view = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_media_action = 2131427426;
+			public const int notification_action = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_media_cancel_action = 2131427427;
+			public const int notification_action_tombstone = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_template_big_media = 2131427428;
+			public const int notification_media_action = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_template_big_media_custom = 2131427429;
+			public const int notification_media_cancel_action = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media_narrow = 2131427430;
+			public const int notification_template_big_media = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_big_media_narrow_custom = 2131427431;
+			public const int notification_template_big_media_custom = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_custom_big = 2131427432;
+			public const int notification_template_big_media_narrow = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_icon_group = 2131427433;
+			public const int notification_template_big_media_narrow_custom = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_lines_media = 2131427434;
+			public const int notification_template_custom_big = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_media = 2131427435;
+			public const int notification_template_icon_group = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_media_custom = 2131427436;
+			public const int notification_template_lines_media = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_part_chronometer = 2131427437;
+			public const int notification_template_media = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int notification_template_part_time = 2131427438;
+			public const int notification_template_media_custom = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int number_picker = 2131427439;
+			public const int notification_template_part_chronometer = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int ohlc_trackball_item_content = 2131427440;
+			public const int notification_template_part_time = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int on_demand_automatic = 2131427441;
+			public const int number_picker = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int on_demand_manual = 2131427442;
+			public const int ohlc_trackball_item_content = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int popup_event = 2131427443;
+			public const int on_demand_automatic = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int radchartbase = 2131427444;
+			public const int on_demand_manual = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int radextendedlistview_scrollbars = 2131427445;
+			public const int popup_event = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int radlegendcontrol = 2131427446;
+			public const int radchartbase = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int range_trackball_item_content = 2131427447;
+			public const int radextendedlistview_scrollbars = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int RootLayout = 2131427448;
+			public const int radlegendcontrol = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int scrollview_scrollbars = 2131427449;
+			public const int range_trackball_item_content = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int select_dialog_item_material = 2131427450;
+			public const int RootLayout = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int select_dialog_multichoice_material = 2131427451;
+			public const int scrollview_scrollbars = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int select_dialog_singlechoice_material = 2131427452;
+			public const int select_dialog_item_material = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int ShellContent = 2131427453;
+			public const int select_dialog_multichoice_material = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int simple_empty_content = 2131427454;
+			public const int select_dialog_singlechoice_material = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int simple_group_header_item = 2131427455;
+			public const int ShellContent = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int simple_list_item = 2131427456;
+			public const int simple_empty_content = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int suggestion_item_layout = 2131427457;
+			public const int simple_group_header_item = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int support_simple_spinner_dropdown_item = 2131427458;
-			
-			// aapt resource value: 0x7F0B0084
-			public const int Tabbar = 2131427460;
-			
-			// aapt resource value: 0x7F0B0085
-			public const int table_layout = 2131427461;
+			public const int simple_list_item = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int tab_item_view = 2131427459;
+			public const int suggestion_item_layout = 2131427459;
+			
+			// aapt resource value: 0x7F0B0084
+			public const int support_simple_spinner_dropdown_item = 2131427460;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int Toolbar = 2131427462;
+			public const int Tabbar = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int tooltip_container = 2131427463;
+			public const int table_layout = 2131427463;
+			
+			// aapt resource value: 0x7F0B0085
+			public const int tab_item_view = 2131427461;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int trackball_container = 2131427464;
+			public const int Toolbar = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int trial_message = 2131427465;
+			public const int tooltip_container = 2131427465;
+			
+			// aapt resource value: 0x7F0B008A
+			public const int trackball_container = 2131427466;
+			
+			// aapt resource value: 0x7F0B008B
+			public const int trial_message = 2131427467;
 			
 			static Layout()
 			{
