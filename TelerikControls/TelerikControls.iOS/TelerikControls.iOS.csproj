@@ -125,6 +125,7 @@
     <BundleResource Include="Resources\FontAwesome5Brands.otf" />
     <BundleResource Include="Resources\FontAwesome5Regular.otf" />
     <BundleResource Include="Resources\FontAwesome5Solid.otf" />
+    <BundleResource Include="Resources\Entire Bible Dark.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

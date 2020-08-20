@@ -1,23 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.ButtonPage" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.ButtonPage" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.XamarinForms.Common" xmlns:telerikGauges="clr-namespace:Telerik.XamarinForms.DataVisualization.Gauges;assembly=Telerik.XamarinForms.DataVisualization">
     <ContentPage.Content>
 
-        <StackLayout HeightRequest="100" WidthRequest="100">
-            <telerikInput:RadButton WidthRequest="120" 
-                HeightRequest="120"                                
-                Text="Circle Button" 
-                FontSize="Micro" 
-                TextColor="White" 
-                BackgroundColor="DarkBlue" 
-                BorderRadius="60"  />
-            <Slider Minimum="0" Maximum="12" />
-            <Stepper x:Name="stepper" Minimum="0" Maximum="12" Increment=".5"/>
-            <TimePicker/>
-            <telerikInput:RadTimeSpanPicker MaximumTime="20" DayStep="0" />
-
-        </StackLayout>
-
+<StackLayout HorizontalOptions="FillAndExpand" HeightRequest="500" Margin="30">
+    <Grid>
+        <Image Source="Entire Bible Dark.png" HeightRequest="400" WidthRequest="300"></Image>
+        <telerikGauges:RadRadialGauge x:Name="gauge1" HeightRequest="400" SweepAngle="340">
+        <telerikGauges:RadRadialGauge.Axis>
+            <telerikGauges:GaugeLinearAxis Minimum="0" Maximum="100" Step="0" ShowLabels="False"/>
+        </telerikGauges:RadRadialGauge.Axis>
+        <telerikGauges:RadRadialGauge.Indicators>
+            <telerikGauges:GaugeBarIndicator Fill="OrangeRed" 
+                                 StartThickness="9"
+                                 EndThickness="9"
+                                 Offset="-10"
+                                 Value="75"
+                                 StartCap="Oval"
+                                 EndCap="Oval"
+                                 />
+        </telerikGauges:RadRadialGauge.Indicators>
+    </telerikGauges:RadRadialGauge>
+    </Grid>
     
 
+</StackLayout>
+    
     </ContentPage.Content>
 </ContentPage>
