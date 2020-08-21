@@ -18,8 +18,8 @@
                                  StartCap="Oval"
                                  EndCap="Oval">
                 <telerikGauges:GaugeBarIndicator.GradientStops>
-                    <telerikCommon:RadGradientStop Offset="-100" Color="Red" />
-                    <telerikCommon:RadGradientStop Offset="-25" Color="WhiteSmoke" />
+                    <telerikCommon:RadGradientStop Offset="-78.78" Color="#D5272C" />
+                    <telerikCommon:RadGradientStop Offset="-17.59" Color="#FB5E48" />
                 </telerikGauges:GaugeBarIndicator.GradientStops>
             </telerikGauges:GaugeBarIndicator>
         </telerikGauges:RadRadialGauge.Indicators>
