@@ -2,17 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.ButtonPage" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.XamarinForms.Common" xmlns:telerikGauges="clr-namespace:Telerik.XamarinForms.DataVisualization.Gauges;assembly=Telerik.XamarinForms.DataVisualization">
     <ContentPage.Content>
 
-<StackLayout HorizontalOptions="FillAndExpand" HeightRequest="500" Margin="30">
+<StackLayout HorizontalOptions="FillAndExpand" HeightRequest="200" Margin="50">
     <Grid>
-        <Image Source="Entire Bible Dark.png" HeightRequest="400" WidthRequest="300"></Image>
-        <telerikGauges:RadRadialGauge x:Name="gauge1" HeightRequest="400" SweepAngle="340">
+        <Image Source="Entire Bible Dark.png" HeightRequest="200" WidthRequest="200"></Image>
+        <telerikGauges:RadRadialGauge x:Name="gauge1" HeightRequest="400" SweepAngle="340" StartAngle="-100" Padding="-18">
         <telerikGauges:RadRadialGauge.Axis>
-            <telerikGauges:GaugeLinearAxis Minimum="0" Maximum="100" Step="0" ShowLabels="False"/>
+            <telerikGauges:GaugeLinearAxis Minimum="0" Maximum="100" Step="0" ShowLabels="False" TickLength="0" TickThickness="0" StrokeThickness="0"/>
         </telerikGauges:RadRadialGauge.Axis>
         <telerikGauges:RadRadialGauge.Indicators>
             <telerikGauges:GaugeBarIndicator Fill="OrangeRed" 
-                                 StartThickness="9"
-                                 EndThickness="9"
+                                 StartThickness="13"
+                                 EndThickness="13"
                                  Offset="-10"
                                  Value="75"
                                  StartCap="Oval"
