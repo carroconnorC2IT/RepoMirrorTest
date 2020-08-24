@@ -1,33 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikControls.Views.ButtonPage" xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" xmlns:telerikCommon="clr-namespace:Telerik.XamarinForms.Common;assembly=Telerik.XamarinForms.Common" xmlns:telerikGauges="clr-namespace:Telerik.XamarinForms.DataVisualization.Gauges;assembly=Telerik.XamarinForms.DataVisualization">
     <ContentPage.Content>
-
-<StackLayout HorizontalOptions="FillAndExpand" HeightRequest="200" Margin="50">
-    <Grid>
-        <Image Source="Entire Bible Dark.png" HeightRequest="200" WidthRequest="200"></Image>
-        <telerikGauges:RadRadialGauge x:Name="gauge1" HeightRequest="400" SweepAngle="340" StartAngle="-100" Padding="-18">
-        <telerikGauges:RadRadialGauge.Axis>
-            <telerikGauges:GaugeLinearAxis Minimum="0" Maximum="100" Step="0" ShowLabels="False" TickLength="0" TickThickness="0" StrokeThickness="0"/>
-        </telerikGauges:RadRadialGauge.Axis>
-        <telerikGauges:RadRadialGauge.Indicators>
-            <telerikGauges:GaugeBarIndicator Fill="OrangeRed" 
-                                 StartThickness="13"
-                                 EndThickness="13"
-                                 Offset="-10"
-                                 Value="75"
-                                 StartCap="Oval"
-                                 EndCap="Oval">
-                <telerikGauges:GaugeBarIndicator.GradientStops>
-                    <telerikCommon:RadGradientStop Offset="-78.78" Color="#D5272C" />
-                    <telerikCommon:RadGradientStop Offset="-17.59" Color="#FB5E48" />
-                </telerikGauges:GaugeBarIndicator.GradientStops>
-            </telerikGauges:GaugeBarIndicator>
-        </telerikGauges:RadRadialGauge.Indicators>
-    </telerikGauges:RadRadialGauge>
-    </Grid>
+        <StackLayout>
+            <StackLayout>
+                <telerikInput:RadSegmentedControl x:Name="segmentControl" 
+                                                  SegmentBackgroundColor="#FFFFFF"
+                                                  SegmentTextColor="#3A9BFD"
+                                                  SelectedSegmentBackgroundColor="#3A9BFD"
+                                                  SelectedSegmentTextColor="#FFFFFF">
+                    <telerikInput:RadSegmentedControl.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Summary</x:String>
+                            <x:String>Books</x:String>
+                            <x:String>Channels</x:String>
+                        </x:Array>
+                    </telerikInput:RadSegmentedControl.ItemsSource>
+                </telerikInput:RadSegmentedControl>
+            </StackLayout>
     
 
-</StackLayout>
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="200" Margin="50">
+                <Grid>
+                    <Image Source="Entire Bible Dark.png" HeightRequest="200" WidthRequest="200"></Image>
+                    <telerikGauges:RadRadialGauge x:Name="gauge1" HeightRequest="400" SweepAngle="340" StartAngle="-100" Padding="-18">
+                    <telerikGauges:RadRadialGauge.Axis>
+                        <telerikGauges:GaugeLinearAxis Minimum="0" Maximum="100" Step="0" ShowLabels="False" TickLength="0" TickThickness="0" StrokeThickness="0"/>
+                    </telerikGauges:RadRadialGauge.Axis>
+                    <telerikGauges:RadRadialGauge.Indicators>
+                        <telerikGauges:GaugeBarIndicator Fill="OrangeRed" 
+                                             StartThickness="13"
+                                             EndThickness="13"
+                                             Offset="-10"
+                                             Value="75"
+                                             StartCap="Oval"
+                                             EndCap="Oval">
+                            <telerikGauges:GaugeBarIndicator.GradientStops>
+                                <telerikCommon:RadGradientStop Offset="-78.78" Color="#D5272C" />
+                                <telerikCommon:RadGradientStop Offset="-17.59" Color="#FB5E48" />
+                            </telerikGauges:GaugeBarIndicator.GradientStops>
+                        </telerikGauges:GaugeBarIndicator>
+                    </telerikGauges:RadRadialGauge.Indicators>
+                </telerikGauges:RadRadialGauge>
+                </Grid>
+    
+
+            </StackLayout>
+            <Button Text="NEW" BackgroundColor="Red" FontAttributes="Bold" TextColor="White" CornerRadius="5" HeightRequest="20" WidthRequest="40"></Button>
+            </StackLayout>
     
     </ContentPage.Content>
 </ContentPage>
